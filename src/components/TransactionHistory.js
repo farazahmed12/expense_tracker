@@ -8,6 +8,8 @@ const TransactionHistory = () => {
   return (
     <div>
       <h3>Transaction History</h3>
+      <h3>Transaction History</h3>
+
       <ul className="list">
         {transactions.map((transaction, ind) => {
           return <Transaction key={ind} transaction={transaction} />;
