@@ -5,7 +5,7 @@ const Transaction = ({ transaction }) => {
     <div>
       <li className="plus">
         {transaction.description}
-        <span>$1,000</span>
+        <span>{transaction.transactionamount}</span>
         <button className="delete-btn">X</button>
       </li>
     </div>
